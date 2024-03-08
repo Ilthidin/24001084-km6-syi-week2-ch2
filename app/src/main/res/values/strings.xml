@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Ch2</string>
+    <string name="app_name">Challenge2</string>
+    <string name="text_banner_sub">Click here to claim</string>
+    <string name="text_banner_tittle">Special Day for You, discount up to 30%</string>
+    <string name="text_menu">Menu List</string>
+    <string name="text_spaghetti">Spaghetti</string>
+    <string name="text_meatball">Bakso</string>
+    <string name="text_meatball_price">Rp 40.000</string>
+    <string name="text_spaghetti_price">Rp 25.000</string>
+    <string name="text_ice_tea">Es Teh</string>
+    <string name="text_ice_tea_price">Rp 5.000</string>
+    <string name="text_burger">Burger</string>
+    <string name="text_burger_price">Rp 32.000</string>
+    <string name="text_fried_rice">Nasi Goreng</string>
+    <string name="text_fried_rice_price">Rp 20.000</string>
+    <string name="text_salad">Salad</string>
+    <string name="text_salad_price">Rp 22.000</string>
+    <string name="text_rice">Rice</string>
+    <string name="text_noodle">Noodle</string>
+    <string name="text_fast_food">Fast Food</string>
+    <string name="text_snack">Snack</string>
+    <string name="text_healthy_food">Healthy Food</string>
+    <string name="text_beverage">Minuman</string>
+    <string name="text_greeting">Hi, Muhammad Syihab</string>
+    <string name="text_sub_greeting">What you gonna eat today?</string>
 </resources>
