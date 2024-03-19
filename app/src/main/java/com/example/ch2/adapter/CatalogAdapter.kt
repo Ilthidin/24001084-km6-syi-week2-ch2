@@ -1,11 +1,11 @@
-package com.example.ch2.model
+package com.example.ch2.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ch2.databinding.ItemCatalogBinding
+import com.example.ch2.databinding.ItemCatalogListBinding
+import com.example.ch2.model.Catalog
 import com.example.ch2.utils.toIndonesianFormat
-
 
 class CatalogAdapter : RecyclerView.Adapter<CatalogAdapter.CatalogViewHolder>() {
 
@@ -17,7 +17,7 @@ class CatalogAdapter : RecyclerView.Adapter<CatalogAdapter.CatalogViewHolder>() 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CatalogViewHolder {
         return CatalogViewHolder(
-            ItemCatalogBinding.inflate(
+            ItemCatalogListBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
@@ -32,12 +32,12 @@ class CatalogAdapter : RecyclerView.Adapter<CatalogAdapter.CatalogViewHolder>() 
         holder.bind(data[position])
     }
 
-    class CatalogViewHolder(private val binding: ItemCatalogBinding) :
+    class CatalogViewHolder(private val binding: ItemCatalogListBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Catalog) {
             binding.tvCatalogName.text = item.name
             binding.tvCatalogPrice.text = item.price.toIndonesianFormat()
-            binding.ivCatalogImage.setImageResource(item.image)
+            binding.ivCatalogImages.setImageResource(item.image)
         }
     }
 }

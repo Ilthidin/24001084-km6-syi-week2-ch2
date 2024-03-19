@@ -1,8 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Ch2" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:fontFamily">@font/ubuntu_font</item>
-
         <item name="colorPrimary">@color/app_color_primary</item>
         <item name="colorOnPrimary">@color/app_color_on_primary</item>
         <item name="colorPrimaryContainer">@color/app_color_primary_container</item>
@@ -22,6 +20,8 @@
         <item name="colorOnError">@color/app_color_on_error</item>
         <item name="colorErrorContainer">@color/app_color_error_container</item>
         <item name="colorOnErrorContainer">@color/app_color_on_error_container</item>
+
+        <item name="android:fontFamily">@font/ubuntu_font</item>
     </style>
 
     <style name="Theme.Ch2" parent="Base.Theme.Ch2" />

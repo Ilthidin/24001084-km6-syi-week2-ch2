@@ -1,8 +1,13 @@
 <resources>
-    <string name="app_name">Plan1</string>
+    <string name="app_name">Ch2</string>
     <string name="text_name">Hi, Muhammad Syihab</string>
     <string name="text_greetings">What you gonna eat today?</string>
     <string name="text_title_banner">Buy now for 30% cut</string>
     <string name="text_desc_banner">Click on banner to use</string>
     <string name="text_menu">Menu List</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_button_cart">Tambah Ke Keranjang - Rp. 18.000</string>
+    <string name="text_location">Lokasi</string>
+    <string name="text_number">1</string>
 </resources>

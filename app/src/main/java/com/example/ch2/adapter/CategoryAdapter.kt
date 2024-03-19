@@ -1,4 +1,4 @@
-package com.example.ch2
+package com.example.ch2.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
